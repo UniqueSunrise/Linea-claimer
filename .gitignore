@@ -1,0 +1,54 @@
+# Python-specific
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Sensitive data
+wallets.xlsx
+*.xlsx
+claim_log.txt
+*.log
+*.env
+.env.*
+*.key
+*.pem
+*.secret
+config.local.py
+
+# IDE and editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+venv/
+env/
+.venv/
+env.bak/
+venv.bak/
+
+# Testing and coverage
+.coverage
+coverage.xml
+*.cover
+*.cache
+nosetests.xml
+pytest_cache/
+
+# Miscellaneous
+*.bak
+*.swp
+*~
+*.tmp
+*.temp
